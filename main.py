@@ -14,7 +14,7 @@ BASE_URLS = [
 ]
 
 # Function to get page URLs up to 110 pages
-def get_page_urls(base_url, total_pages=110):
+def get_page_urls(base_url, total_pages=20):
     page_urls = []
     if '{}' in base_url:
         # If the URL has a placeholder for page numbers
